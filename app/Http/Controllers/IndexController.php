@@ -22,4 +22,9 @@ class IndexController extends Controller
             'age' => $age
         ]);
     }
+
+    public function testPost()
+    {
+        return "post";
+    }
 }
