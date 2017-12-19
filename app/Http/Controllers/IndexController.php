@@ -25,6 +25,6 @@ class IndexController extends Controller
 
     public function testPost()
     {
-        return "post";
+        return "POST";
     }
 }
